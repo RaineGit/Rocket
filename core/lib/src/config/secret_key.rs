@@ -71,7 +71,7 @@ enum Kind {
 #[derive(Clone)]
 #[cfg_attr(nightly, doc(cfg(feature = "secrets")))]
 pub struct SecretKey {
-    pub(crate) key: Key,
+    pub key: Key,
     provided: bool,
 }
 
